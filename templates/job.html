@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>求職自傳履歷</title>
+	<style type="text/css">
+		* { font-family:"標楷體"; margin-left:auto; margin-right:auto;}
+		h1 {color:#81a6c9; font-size:60px;}
+		h2 {color:#e092af; font-size:40px;}
+		h3 {font-size:20px;}
+	</style>
+
+	<script>
+		function change2() {
+  			document.getElementById("pic").src = "/static/word.jpg";
+  			document.getElementById("h2text").innerText = "courage";
+		}
+
+		function change3() {
+  			document.getElementById("pic").src = "/static/word2.jpg";
+  			document.getElementById("h2text").innerText = "brave";
+		}
+	</script>
+
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+</head>
+<body>
+	<main class="container-fluid bg-secondary text-white text-center">
+	<table width="70%">
+		<tr>
+			<td>
+				<main class="container-fluid bg-light text-white text-center">
+				<h1>林映均-求職自傳</h1>
+				<h2 id="h2text">自傳內容</h2>
+				<main class="container-fluid bg-light text-white text-center">
+			</td>
+		</tr>
+	</table>
+
+	<table width="70%">
+		<tr>
+			<td>
+				<img src="/static/word.jpg" class="img-fluid rounded-circle"width="50%" id="pic" onmouseover="change2()" onmouseout="change3()"></img>
+			</td>
+		</tr>
+	</table>
+
+
+	<table width="100%" border="5">
+		<tr>
+			<td>
+				<h2>自我介紹</h2><br>
+				<h3>我叫林映均,目前正研習大二資訊管理學系的課程,對英文有著強烈的興趣,加上進入到資訊產業會接觸到英文,希望能夠持續精進以提升自己的能力並幫助未來發展.</h3><br>
+			</td>
+
+			<td>
+				<h2>為何適合這份工作</h2><br>
+				<h3>這份工作會需要應用到資訊處理以及資訊安全的能力,需要去維護防火牆並進行網路管理等,大三時會學習到軟體設計與開發並研習資訊安全,再去參加公司所提供的實習機會
+
+				</h3><br>
+			</td>
+
+			<td>
+				<h2>未來規劃</h2><br>
+				<h3>繼續研讀資訊管理的研究所,增加自己實作經驗另外考取多益證照取得830以上分數,畢業之後進入資訊產業工作,利用自己所學的知識與能力應用到工作上</h3><br>
+			</td>
+		</tr>
+	</table>
+
+
+	<footer>
+		Copyright ©  林映均. All Rights Reserved.
+	</footer>
+	<main class="container-fluid bg-secondary text-white text-center">
+</body>
+</html>

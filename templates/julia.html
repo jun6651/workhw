@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>林映均的履歷表</title>
+	<style type="text/css">
+		* { font-family:"標楷體"; margin-left:auto; margin-right:auto;}
+		h1 {color:#56a3c7; font-size:60px;}
+		h2 {color:#e03a40; font-size:40px;}
+	</style>
+
+
+	<script>
+		function change1() {
+  			document.getElementById("pic").src = "/static/work.jpg";
+  			document.getElementById("h2text").innerText = "靜宜資訊管理系";
+		}
+
+		function change2() {
+  			document.getElementById("pic").src = "/static/work2.jpg";
+  			document.getElementById("h2text").innerText = "Julia";
+		}
+	</script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+</head>
+<body>
+	<main class="container-fluid bg-danger text-white text-center">
+	<table width="100%">
+		<tr>
+			<td>
+				<img src="/static/work.jpg"  width="80%" id="pic"  onmouseover="change1()" onmouseout="change2()"></img>
+			</td>
+
+			<td>
+				<main class="container-fluid bg-light text-white text-center">
+				<h1>林映均的求職履歷</h1>
+				<h2 id="h2text">我的履歷表</h2>
+				<h2><a href="https://www.1111.com.tw/">1111人力銀行</a></h2>
+
+				<main class="container-fluid bg-light text-white text-center">
+			</td>
+		</tr>
+	</table>
+
+	<footer>
+		Copyright ©  林映均. All Rights Reserved.
+	</footer>
+
+	<main class="container-fluid bg-danger text-white text-center">
+</body>
+</html>

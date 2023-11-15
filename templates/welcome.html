@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>職涯測驗結果</title>
+    <style>
+        *  { font-family: "標楷體"; }
+        h1 {color:#a1933b; font-size:60px;}
+        h2 {color:#a6e089; font-size:30px;}
+    </style>
+
+
+    <script>
+        function change1() {
+            document.getElementById("pic").src = "/static/school.jpg";
+        }
+        function change2() {
+            document.getElementById("pic2").src = "/static/score.jpg";
+        }
+        function change3() {
+            document.getElementById("pic3").src = "/static/all.jpg";
+        }
+        function change4() {
+            document.getElementById("pic4").src = "/static/cie.jpg";
+        }
+        function change5() {
+            document.getElementById("pic5").src = "/static/c.jpg";
+        }
+        function change6() {
+            document.getElementById("pic6").src = "/static/i.jpg";
+        }
+        function change7() {
+            document.getElementById("pic7").src = "/static/e.jpg";
+        }
+    </script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+<body>
+    <main class="container-fluid bg-success text-white text-center">
+    <table width="70%">
+        <tr>
+            <td>
+                <main class="container-fluid bg-light text-white text-center">
+                <h1>林映均的職涯測驗結果</h1>
+                <main class="container-fluid bg-light text-white text-center">
+            </td>
+
+            <td>
+                <img src="/static/school.jpg"class="img-fluid rounded-circle"width="90%" id="pic" onmouseover="change1()" ></img>
+            </td>
+        </tr>
+    </table>
+
+    <table width="80%" border="5">
+        <tr>
+            <tr>
+            <td>
+                <h2><a href="https://ucan.moe.edu.tw/Account/Login.aspx">16職涯類型診斷分數</a></h2>
+
+            </td>
+
+            <td>
+                <img src="/static/score.jpg"width="70%" id="pic2" onmouseover="change2()" ></img>
+            </td>
+        </tr>
+
+         <tr>
+            <tr>
+            <td>
+                <h2>各職涯性格類型分數</h2>
+            </td>
+
+            <td>
+                <img src="/static/all.jpg"width="70%" id="pic3" onmouseover="change3()" ></img>
+            </td>
+        </tr>
+
+           
+        <tr>
+            <tr>
+            <td>
+                <h2>職涯性格類型</h2>
+            </td>
+
+            <td>
+                <img src="/static/cie.jpg"width="80%" id="pic4" onmouseover="change4()" ></img>
+            </td>
+        </tr>
+
+             <tr>
+            <tr>
+            <td>
+                <h2>我的職涯性格類型:C事務型</h2>
+            </td>
+
+            <td>
+                <img src="/static/c.jpg"width="80%" id="pic5" onmouseover="change5()" ></img>
+            </td>
+        </tr>
+
+         <tr>
+            <tr>
+            <td>
+                <h2>我的職涯性格類型:I研究型</h2>
+            </td>
+
+            <td>
+                <img src="/static/i.jpg"width="80%" id="pic6" onmouseover="change6()" ></img>
+            </td>
+        </tr>
+
+          <tr>
+            <tr>
+            <td>
+                <h2>我的職涯性格類型:E企業型</h2>
+            </td>
+
+            <td>
+                <img src="/static/e.jpg"width="80%" id="pic7" onmouseover="change7()" ></img>
+            </td>
+        </tr>
+    </table>
+
+    <footer>
+        Copyright ©  林映均. All Rights Reserved.
+    </footer>
+    <main class="container-fluid bg-success text-white text-center">
+</body>
+</html>
